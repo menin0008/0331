@@ -21,17 +21,20 @@
             justify-content: center;
             align-items: center; /* 수직수평 가운데 */
             min-height: 100vh;
-            background-color: rgb(194, 240, 255);
+            background-color: rgb(10, 40, 177);
             overflow: hidden; /* 밖으로 나가는 항목은 연산 ㅈㅔ외 */
         }
         .section .text{
             position: relative;
-            color: rgb(255, 255, 255);
+            color: rgb(255, 245, 199);
             margin: 40px;
             max-width: 800px;
             user-select: none; /* 선택되지 않게 */
             font-size: 1.7em; /* 1.5em = 약 24px */
             /* background-color: rgb(255, 201, 99); */
+            letter-spacing: 0.1px;
+            line-height: 1;
+            word-spacing: 0.1px;
         }
         .section .text span {
             position: relative;
@@ -53,8 +56,8 @@
                 pointer-events: none; /* pointer가 활성화 되지 않도록 */
             }
             100%{
-                opacity: 1;
-                filter: blur(20);
+                opacity: 0;
+                filter: blur(20px);
                 transform: translateX(300px) translateY(-300px) rotate(720deg) scale(4); 
                 /* y가 -로 값이 들어가면 위쪽 방향을 의미한다 / 720deg는 720도로 두번 돈다는 뜻 */
             }
@@ -64,6 +67,31 @@
 <body>
     <div class="section">
         <p class="text"> 
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. <br>
+            Molestias nihil minima porro quasi sequi accusamus sed expedita nesciunt et,<br> 
+            adipisci, similique labore explicabo iste minus ducimus temporibus nam dignissimos. <br>
+            Deserunt quo beatae ipsa maiores veritatis suscipit! Reiciendis nesciunt, consectetur <br>
+            adipisci perspiciatis cumque tempora eligendi libero ex, hic atque dolores a.
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. <br>
+            Molestias nihil minima porro quasi sequi accusamus sed expedita nesciunt et,<br> 
+            adipisci, similique labore explicabo iste minus ducimus temporibus nam dignissimos. <br>
+            Deserunt quo beatae ipsa maiores veritatis suscipit! Reiciendis nesciunt, consectetur <br>
+            adipisci perspiciatis cumque tempora eligendi libero ex, hic atque dolores a.
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. <br>
+            Molestias nihil minima porro quasi sequi accusamus sed expedita nesciunt et,<br> 
+            adipisci, similique labore explicabo iste minus ducimus temporibus nam dignissimos. <br>
+            Deserunt quo beatae ipsa maiores veritatis suscipit! Reiciendis nesciunt, consectetur <br>
+            adipisci perspiciatis cumque tempora eligendi libero ex, hic atque dolores a.
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. <br>
+            Molestias nihil minima porro quasi sequi accusamus sed expedita nesciunt et,<br> 
+            adipisci, similique labore explicabo iste minus ducimus temporibus nam dignissimos. <br>
+            Deserunt quo beatae ipsa maiores veritatis suscipit! Reiciendis nesciunt, consectetur <br>
+            adipisci perspiciatis cumque tempora eligendi libero ex, hic atque dolores a.
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. <br>
+            Molestias nihil minima porro quasi sequi accusamus sed expedita nesciunt et,<br> 
+            adipisci, similique labore explicabo iste minus ducimus temporibus nam dignissimos. <br>
+            Deserunt quo beatae ipsa maiores veritatis suscipit! Reiciendis nesciunt, consectetur <br>
+            adipisci perspiciatis cumque tempora eligendi libero ex, hic atque dolores a.
             Lorem ipsum, dolor sit amet consectetur adipisicing elit. <br>
             Molestias nihil minima porro quasi sequi accusamus sed expedita nesciunt et,<br> 
             adipisci, similique labore explicabo iste minus ducimus temporibus nam dignissimos. <br>
